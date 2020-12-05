@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .div0 {
+    margin: 0 15%;
+    width: 60%;
+    height: 80%;
+    background-color: black;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    position: relative;
+  }
+
+  .div0::after{
+    content: "";
+    position: absolute;
+    left: 48px;
+    top: 52px;
+    height: 100%;
+    width: 87%;
+    border: 2px dotted white;
+    border-radius: 60px;
+  }
+
+
+
+  .slant {
+    position: relative;
+    padding: 64px 0px 0px 110px;
+    top: 187px;
+    left: 0;
+    height: 505px;
+    transform: skewY(-4.4deg);
+  }
+
+  .slant p {
+    transform: skewY(4.4deg);
+  }
+
+
+  .article {
+    /* width: 60%; */
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+  }
+
+  .article::first-letter {
+    -webkit-initial-letter: 4 1;
+            initial-letter: 4 1;
+    color: black;
+    font-weight: normal;
+    font-family: 'Ruthie','Sacramento';
+    font-size: 8rem;
+    margin-right: 10px;
+    padding: 0;
+  }
+
+
+  .heading{
+    font-size: 20px;
+    font-family: monospace;
+    margin-right:20px;
+  }
+
+  .para{
+    font-size: 15px;
+    font-family: monospace;
+    margin-right:20px;
+
+  }
+
+
+  .div1 {
+    height: 400px;
+    padding: 110px 100px 0px 150px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    color: white;
+
+  }
+  .div1 .article {
+    color: white;
+  }
+
+  .div1 .article::first-letter {
+    -webkit-initial-letter: 4 1;
+            initial-letter: 4 1;
+    color: white;
+    font-weight: normal;
+    font-size: 10rem;
+    margin: 0;
+    padding: 0;
+  }
+  .div2 {
+    background-color: #F1E7DE;
+  }
+
+  .div3 {
+    background-color: rgb(2, 2, 36);
+    color:white;
+  }
+  .div3 .article::first-letter {
+    -webkit-initial-letter: 4 1;
+            initial-letter: 4 1;
+    color: white;
+    font-weight: normal;
+    font-size: 10rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .div4 {
+    background-color:pink;
+  }
+
+  .div5 {
+    background-color:rgb(250, 160, 175);
+    
+  }
+
+  .div6 {
+    background-color: #F1E7DE;
+  }
+
+  .div7 {
+    background-color: rgb(2, 2, 32);
+    color:white;
+    
+  }
+  .div7 .article::first-letter {
+    -webkit-initial-letter: 4 1;
+            initial-letter: 4 1;
+    color: white;
+    font-weight: normal;
+    font-size: 10rem;
+    margin-right: 0;
+    padding: 0;
+  }
+  .div8 {
+    background-color: pink;
+  }
+
+  .div9 {
+    background-color:rgb(247, 237, 218);
+  }
+
+  .div10 {
+    overflow: hidden;
+    height: 577px;
+    padding: 45px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: rgb(214, 213, 213); 
+  }
+  .div10 .para1{
+    text-align: left;
+  }
+
+  .inner-outline {
+    border: 1px solid #000;
+  }
+
+  footer{
+    font-size:0.2rem;
+    text-align: center;
+    background: white;
+    margin-left:289px;
+    margin-right: 348px;
+    padding: 18px;
+  } 
